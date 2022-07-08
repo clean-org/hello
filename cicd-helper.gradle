@@ -1,0 +1,13 @@
+
+
+task project_version {
+    doLast {
+        println(getProject().getVersion())
+    }
+}
+
+task project_name {
+    doLast {
+        println(getProject().getName())
+    }
+}
